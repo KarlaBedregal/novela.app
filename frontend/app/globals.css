@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-canon:        #10b981;
+  --color-suggestion:   #f59e0b;
+  --color-draft:        #6366f1;
+  --color-ambiguous:    #8b5cf6;
+  --color-contradictory:#ef4444;
+  --color-superseded:   #9ca3af;
+}
+
+/* Scrollbar oscura */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #1f2937; }
+::-webkit-scrollbar-thumb { background: #4b5563; border-radius: 3px; }
+
+/* Selección de texto */
+::selection { background: #7c3aed44; color: #fff; }

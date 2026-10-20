@@ -1,0 +1,54 @@
+# Entornos
+.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!*.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+
+# Bases de datos locales
+chroma_data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Migrations cache
+migrations/versions/__pycache__/
+
+# Logs
+*.log
+celerybeat-schedule
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+Thumbs.db
+
+# Secretos
+*.pem
+*.key

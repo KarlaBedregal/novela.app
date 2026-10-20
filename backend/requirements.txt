@@ -1,0 +1,50 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+# Base de datos
+sqlalchemy[asyncio]==2.0.36
+asyncpg==0.30.0
+alembic==1.13.3
+psycopg2-binary==2.9.9   # para migraciones Alembic (sync)
+
+# Validación y configuración
+pydantic==2.9.2
+pydantic-settings==2.5.2
+pydantic[email]==2.9.2
+
+# Auth y seguridad
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.0
+PyJWT==2.9.0
+
+# NER y procesamiento de texto
+spacy==3.7.6
+# Descargar modelo: python -m spacy download es_core_news_lg
+
+# IA
+google-genai==0.8.0
+
+# Embeddings y vector DB
+chromadb==0.5.15
+httpx==0.27.2            # para llamadas a Ollama
+
+# Encriptación (V1)
+cryptography==43.0.3
+argon2-cffi==23.1.0
+
+# Cola de tareas
+celery[redis]==5.4.0
+redis==5.1.1
+
+# Extracción de documentos
+pymupdf==1.24.11         # PDF
+python-docx==1.1.2       # DOCX
+
+# Pagos (V2)
+stripe==10.12.0
+
+# Utilidades
+python-dotenv==1.0.1
+groq==1.7.0
